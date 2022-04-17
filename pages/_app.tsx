@@ -1,8 +1,10 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+/* eslint-disable react/jsx-props-no-spreading */
+/* disable this eslint rule because nextjs
+ * needs prop spreading here */
+import type { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }: AppProps) => (
+  <Component {...pageProps} />
+);
 
-export default MyApp
+export default MyApp;
