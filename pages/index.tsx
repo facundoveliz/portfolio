@@ -143,8 +143,8 @@ const Home: NextPage = () => (
         title="Somos Mas"
         content="Foundraising fictional app made for Alkemy in a group of 4 devs"
         apps="#react #chakraui #node #sequelize"
-        github="https://github.com/facundoveliz/OT123-CLIENT"
-        demo="https://github.com/facundoveliz/OT123-SERVER"
+        github="https://github.com/facundoveliz/somos-mas-ong"
+        demo=""
       />
 
       <Card
