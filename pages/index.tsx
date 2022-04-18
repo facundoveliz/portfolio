@@ -134,7 +134,7 @@ const Home: NextPage = () => (
       <Card
         title="Vendo"
         content="Ecommerce app with most used features in the market"
-        apps="#react #sass #node #mongodb"
+        apps="#react #sass #node #mongodb #aws"
         github="https://github.com/facundoveliz/vendo-ecommerce"
         demo="https://vendo-ecommerce.burki.club/"
       />
@@ -150,7 +150,7 @@ const Home: NextPage = () => (
       <Card
         title="Personal Budget"
         content="A simple budget management app"
-        apps="#nextjs #typescript #styledcomponents #node #mongodb"
+        apps="#nextjs #typescript #styled-components #node #mongodb"
         github="https://github.com/facundoveliz/personal-budget"
         demo="https://personal-budget.burki.club/"
       />
