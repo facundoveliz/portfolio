@@ -41,9 +41,12 @@ export const GlobalStyle = createGlobalStyle<ThemeType>`
       margin: 10px 0;
     }
     font-size: 18px;
-    width: 40vw;
+    width: 50vw;
+    @media (max-width: 940px) {
+      width: 75vw;
+    }
     @media (max-width: 740px) {
-    width: 80vw;
+      width: 85vw;
     }
   }
   html, body {
