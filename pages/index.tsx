@@ -1,87 +1,105 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Card from '../components/index/card/Card';
+import {
+  Github,
+  LinkedIn,
+  Introduction,
+  ProjectsWrapper,
+  SkillsWrapper,
+  Wrapper,
+  Email,
+} from '../components/index/styles';
 
 const Home: NextPage = () => (
-  <div>
+  <Wrapper>
     <Head>
       <title>Facundo Veliz</title>
       <meta name="description" content="Facundo Veliz Portfolio" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <h1>Facundo Veliz</h1>
-    <p>Fullstack Web Dev</p>
-    <p>Made in Buenos Aires, Argentina</p>
-
-    <section>
-      <h2>What I know</h2>
-      <ul>
-        <li>SCSS/Sass</li>
-        <li>ChakraUI</li>
-        <li>Styled Components</li>
-        <li>Tailwind CSS</li>
-
-        <li>Javascript and Typescript</li>
-        <li>React and Redux</li>
-        <li>NextJS</li>
-        <li>Unit testing (Mocha-Chai and Supertest/Jest)</li>
-
-        <li>Node</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>SQL with Sequelize</li>
-
-        <li>Git</li>
-        <li>Linux and CLI</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>My work</h2>
-      <div>
-        <h3>Vendo Ecommerce</h3>
-        <p>Ecommerce app with most used features in the market</p>
-        <p>React/Sass and Node/MongoDB</p>
-        <div>
-          <a href="https://github.com/facundoveliz/vendo-ecommerce">Code</a>
-          <a href="https://vendo-ecommerce.burki.club/">Demo</a>
-        </div>
-      </div>
-
-      <div>
-        <h3>Somos Mas</h3>
-        <p>Foundraising fictional app made for Alkemy in a group of 4</p>
-        <p>React/ChakraUI and Node/Sequelize</p>
-        <div>
-          <a href="https://github.com/facundoveliz/OT123-CLIENT">Code</a>
-          <a href="https://github.com/facundoveliz/OT123-SERVER">Code</a>
-        </div>
-      </div>
-
-      <div>
-        <h3>Personal Budget</h3>
-        <p>A simple budget management app</p>
-        <p>NextJS/Typescript/StyledComponents and Node/MongoDB</p>
-        <div>
-          <a href="https://github.com/facundoveliz/personal-budget">Code</a>
-          <a href="https://personal-budget.burki.club/">Demo</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>About me</h2>
+    <Introduction>
+      <h1>Facundo Veliz</h1>
+      <p>Fullstack Web Dev</p>
+      <p>Made in Buenos Aires, Argentina</p>
+      <h2>About me 📕</h2>
       <p>
         I like to build web apps as a hobby and I would love to make it a full
-        time job. I enjoy reading fantasy books and watching TV shows, i&apos;m
+        time job. I enjoy reading fantasy books and watching TV shows, I&apos;m
         also a linux aficionate and nowadays spend most of my time coding or
         studying in university my carreer of programming technician.
       </p>
-    </section>
-    <p>Email</p>
-    <p>LinkedIn</p>
-    <p>Github</p>
-  </div>
+      <div>
+        <Email
+          href="facundoveliz9@gmail.com"
+          onClick={() => window.open('mailto:facundoveliz9@gmail.com')}
+        />
+        <Github
+          href="https://github.com/facundoveliz"
+          onClick={() => window.open('https://github.com/facundoveliz')}
+        />
+        <LinkedIn
+          href="https://www.linkedin.com/in/facundoveliz/"
+          onClick={() => window.open('https://www.linkedin.com/in/facundoveliz/')}
+        />
+      </div>
+    </Introduction>
+
+    <SkillsWrapper>
+      <h2>What I know 🧠</h2>
+      <div>
+        <p>Javascript</p>
+        <p>Typescript</p>
+        <p>React and Redux</p>
+        <p>NextJS</p>
+        <p>Unit Testing</p>
+      </div>
+
+      <div>
+        <p>SCSS/Sass</p>
+        <p>ChakraUI</p>
+        <p>Styled Components</p>
+        <p>Tailwind CSS</p>
+      </div>
+
+      <div>
+        <p>Node</p>
+        <p>Express</p>
+        <p>MongoDB</p>
+        <p>SQL with Sequepze</p>
+        <p>Git</p>
+        <p>Linux and CLI</p>
+      </div>
+    </SkillsWrapper>
+
+    <ProjectsWrapper>
+      <h2>My work 📦</h2>
+      <Card
+        title="Vendo"
+        content="Ecommerce app with most used features in the market"
+        apps="#react #sass #node #mongodb"
+        github="https://github.com/facundoveliz/vendo-ecommerce"
+        demo="https://vendo-ecommerce.burki.club/"
+      />
+
+      <Card
+        title="Somos Mas"
+        content="Foundraising fictional app made for Alkemy in a group of 4 devs"
+        apps="#react #chakraui #node #sequelize"
+        github="https://github.com/facundoveliz/OT123-CLIENT"
+        demo="https://github.com/facundoveliz/OT123-SERVER"
+      />
+
+      <Card
+        title="Personal Budget"
+        content="A simple budget management app"
+        apps="#nextjs #typescript #styledcomponents #node #mongodb"
+        github="https://github.com/facundoveliz/personal-budget"
+        demo="https://personal-budget.burki.club/"
+      />
+    </ProjectsWrapper>
+  </Wrapper>
 );
 
 export default Home;
