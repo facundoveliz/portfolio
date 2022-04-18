@@ -81,5 +81,3 @@ export const LinkedIn = styled(FaLinkedin)`
   width: 28px;
   margin-right: 8px;
 `;
-
-export const Education = styled.div``;

@@ -26,7 +26,6 @@ import {
   SkillsWrapper,
   Wrapper,
   Email,
-  Education,
 } from '../components/index/styles';
 
 const Home: NextPage = () => (
@@ -46,7 +45,7 @@ const Home: NextPage = () => (
         I like to build web apps as a hobby and I would love to make it a full
         time job. I enjoy reading fantasy books and watching TV shows, I&apos;m
         also a linux aficionate and nowadays spend most of my time coding or
-        studying in university my carreer of programming technician.
+        studying in university for my carreer of programming technician.
       </p>
       <div>
         <Email
@@ -156,10 +155,6 @@ const Home: NextPage = () => (
         demo="https://personal-budget.burki.club/"
       />
     </ProjectsWrapper>
-
-    <Education>
-      <h3>Education 📚</h3>
-    </Education>
   </Wrapper>
 );
 
