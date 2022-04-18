@@ -8,7 +8,7 @@ type CardProps = {
   content: string;
   apps: string;
   github: string;
-  demo: string;
+  demo?: string;
 };
 
 const Card: NextPage<CardProps> = ({
@@ -19,7 +19,9 @@ const Card: NextPage<CardProps> = ({
     <Content>{content}</Content>
     <Apps>{apps}</Apps>
     <Github href={github} onClick={() => window.location.assign(github)} />
-    <Link href={demo} onClick={() => window.location.assign(demo)} />
+    {demo ? (
+      <Link href={demo} onClick={() => window.location.assign(demo)} />
+    ) : null}
   </Wrapper>
 );
 

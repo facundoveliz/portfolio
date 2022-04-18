@@ -140,19 +140,19 @@ const Home: NextPage = () => (
       />
 
       <Card
-        title="Somos Mas"
-        content="Foundraising fictional app made for Alkemy in a group of 4 devs"
-        apps="#react #chakraui #node #sequelize"
-        github="https://github.com/facundoveliz/somos-mas-ong"
-        demo=""
-      />
-
-      <Card
         title="Personal Budget"
         content="A simple budget management app"
         apps="#nextjs #typescript #styled-components #node #mongodb"
         github="https://github.com/facundoveliz/personal-budget"
         demo="https://personal-budget.burki.club/"
+      />
+
+      <Card
+        title="Somos Mas"
+        content="Foundraising fictional app made for Alkemy in a group of 4 devs"
+        apps="#react #chakraui #node #sequelize"
+        github="https://github.com/facundoveliz/somos-mas-ong"
+        demo=""
       />
     </ProjectsWrapper>
   </Wrapper>
