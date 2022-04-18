@@ -28,23 +28,33 @@ export const Introduction = styled.div`
 `;
 
 export const SkillsWrapper = styled.div`
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  /* background: red; */
+  width: 100%;
   div {
-    background: ${({ theme }) => theme.backgroundSoft};
-    padding: 24px;
-    width: auto;
-    border-radius: 4px;
-    margin: 24px 0;
+    padding: 4px;
+    text-align: center;
+    width: 120px;
     p {
-      width: auto;
-      display: flex;
-      padding: 12px;
+      width: 100px;
+    }
+    svg {
+      height: 32px;
+      width: 32px;
     }
   }
 `;
 
 export const ProjectsWrapper = styled.div`
   h2 {
-    margin: 48px 0;
+    margin: 124px 0 48px;
   }
 `;
 
@@ -68,3 +78,5 @@ export const LinkedIn = styled(FaLinkedin)`
   width: 28px;
   margin-right: 8px;
 `;
+
+export const Education = styled.div``;

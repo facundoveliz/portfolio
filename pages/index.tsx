@@ -1,5 +1,23 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import {
+  SiChakraui,
+  SiExpress,
+  SiGit,
+  SiJavascript,
+  SiJest,
+  SiLinux,
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiReact,
+  SiSass,
+  SiSequelize,
+  SiStyledcomponents,
+  SiTailwindcss,
+  SiTypescript,
+} from 'react-icons/si';
 import Card from '../components/index/card/Card';
 import {
   Github,
@@ -9,6 +27,7 @@ import {
   SkillsWrapper,
   Wrapper,
   Email,
+  Education,
 } from '../components/index/styles';
 
 const Home: NextPage = () => (
@@ -46,29 +65,68 @@ const Home: NextPage = () => (
       </div>
     </Introduction>
 
+    <h2>What I know 🧠</h2>
     <SkillsWrapper>
-      <h2>What I know 🧠</h2>
       <div>
+        <SiJavascript />
         <p>Javascript</p>
+      </div>
+      <div>
+        <SiTypescript />
         <p>Typescript</p>
+      </div>
+      <div>
+        <SiReact />
         <p>React and Redux</p>
+      </div>
+      <div>
+        <SiNextdotjs />
         <p>NextJS</p>
+      </div>
+      <div>
+        <SiJest />
         <p>Unit Testing</p>
       </div>
 
       <div>
+        <SiSass />
         <p>SCSS/Sass</p>
+      </div>
+      <div>
+        <SiChakraui />
         <p>ChakraUI</p>
+      </div>
+      <div>
+        <SiStyledcomponents />
         <p>Styled Components</p>
+      </div>
+      <div>
+        <SiTailwindcss />
         <p>Tailwind CSS</p>
       </div>
 
       <div>
+        <SiNodedotjs />
         <p>Node</p>
+      </div>
+      <div>
+        <SiExpress />
         <p>Express</p>
+      </div>
+      <div>
+        <SiMongodb />
         <p>MongoDB</p>
-        <p>SQL with Sequepze</p>
+      </div>
+      <div>
+        <SiSequelize />
+        <p>SQL with Sequelize</p>
+      </div>
+      <div>
+        <SiGit />
         <p>Git</p>
+      </div>
+      <div>
+        <SiLinux />
         <p>Linux and CLI</p>
       </div>
     </SkillsWrapper>
@@ -99,6 +157,10 @@ const Home: NextPage = () => (
         demo="https://personal-budget.burki.club/"
       />
     </ProjectsWrapper>
+
+    <Education>
+      <h3>Education 📚</h3>
+    </Education>
   </Wrapper>
 );
 
