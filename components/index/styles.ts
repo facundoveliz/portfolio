@@ -5,7 +5,7 @@ import { MdOutlineMail } from 'react-icons/md';
 export const Wrapper = styled.div``;
 
 export const Introduction = styled.div`
-  height: 75vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,7 +57,7 @@ export const SkillsWrapper = styled.div`
 
 export const ProjectsWrapper = styled.div`
   h2 {
-    margin: 124px 0 48px;
+    margin: 48px 0 48px;
   }
 `;
 
