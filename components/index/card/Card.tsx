@@ -18,10 +18,8 @@ const Card: NextPage<CardProps> = ({
     <h3>{title}</h3>
     <Content>{content}</Content>
     <Apps>{apps}</Apps>
-    <Github href={github} onClick={() => window.location.assign(github)} />
-    {demo ? (
-      <Link href={demo} onClick={() => window.location.assign(demo)} />
-    ) : null}
+    <Github href={github} onClick={() => window.open(github)} />
+    {demo ? <Link href={demo} onClick={() => window.open(demo)} /> : null}
   </Wrapper>
 );
 
