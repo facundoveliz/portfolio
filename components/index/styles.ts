@@ -5,7 +5,12 @@ import { MdOutlineMail } from 'react-icons/md';
 export const Wrapper = styled.div``;
 
 export const Introduction = styled.div`
-  height: 100vh;
+  margin-top: 30px;
+  height: 60vh;
+  @media (max-width: 650px) {
+    margin-top: 0;
+    height: 100vh;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
