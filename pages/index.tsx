@@ -43,9 +43,10 @@ const Home: NextPage = () => (
       <h2>About me 📕</h2>
       <p>
         I like to build web apps as a hobby and I would love to make it a full
-        time job. I enjoy reading fantasy books and watching TV shows, I&apos;m
-        also a linux aficionate and nowadays spend most of my time coding or
-        studying in university for my carreer of programming technician.
+        time job, so I am currently available to hire for full time,
+        contracting, or freelance. I consider myself a fast learner, with great
+        attention to detail, and I like finding the best and efficient way to
+        achieve goals.
       </p>
       <div>
         <Email
