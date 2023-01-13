@@ -6,14 +6,17 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  font-size: 18px;
+  color: ${({ theme }) => theme.foregroundSoft};
+  font-size: 16.5px;
+  text-align: justify;
+  margin-bottom: 15px;
 `;
 
 export const Apps = styled.p`
   display: flex;
   margin: 8px 0;
   color: ${({ theme }) => theme.foregroundSofter};
-  font-size: 16px;
+  font-size: 15px;
 `;
 
 export const Github = styled(FaGithub)`

@@ -5,18 +5,25 @@ import {
 
 type CardProps = {
   title: string;
-  content: string;
+  content1: string;
+  content2: string;
   apps: string;
   github: string;
   demo?: string;
 };
 
 const Card: NextPage<CardProps> = ({
-  title, content, apps, github, demo,
+  title,
+  content1,
+  content2,
+  apps,
+  github,
+  demo,
 }) => (
   <Wrapper>
     <h3>{title}</h3>
-    <Content>{content}</Content>
+    <Content>{content1}</Content>
+    <Content>{content2}</Content>
     <Apps>{apps}</Apps>
     <Github href={github} onClick={() => window.open(github)} />
     {demo ? <Link href={demo} onClick={() => window.open(demo)} /> : null}

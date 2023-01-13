@@ -19,10 +19,6 @@ export const Introduction = styled.div`
     font-size: 20px;
     color: ${({ theme }) => theme.foregroundSoft};
     margin-bottom: 6px;
-    &:last-child {
-      font-size: 18px;
-      color: ${({ theme }) => theme.foregroundSofter};
-    }
   }
   div {
     margin-top: 6px;
@@ -35,7 +31,16 @@ export const Introduction = styled.div`
   }
 `;
 
-export const SkillsWrapper = styled.div`
+export const Description = styled.div`
+  p {
+    font-size: 19px;
+    text-align: justify;
+    color: ${({ theme }) => theme.foregroundSoft};
+    margin-bottom: 20px;
+  }
+`;
+
+export const Skills = styled.div`
   margin-top: 48px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -56,6 +61,14 @@ export const SkillsWrapper = styled.div`
     svg {
       height: 32px;
       width: 32px;
+    }
+  }
+`;
+
+export const SkillsWrapper = styled.div`
+  @media (min-width: 650px) {
+    h2 {
+      margin-top: 128px;
     }
   }
 `;
