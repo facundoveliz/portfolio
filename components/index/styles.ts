@@ -5,8 +5,7 @@ import { MdOutlineMail } from 'react-icons/md';
 export const Wrapper = styled.div``;
 
 export const Introduction = styled.div`
-  margin-top: 30px;
-  height: 60vh;
+  margin-top: 60px;
   @media (max-width: 650px) {
     margin-top: 0;
     height: 100vh;
