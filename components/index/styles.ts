@@ -61,10 +61,8 @@ export const Skills = styled.div`
 `;
 
 export const SkillsWrapper = styled.div`
-  @media (min-width: 650px) {
-    h2 {
-      margin-top: 128px;
-    }
+  h2 {
+    margin-top: 128px;
   }
 `;
 
