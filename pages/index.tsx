@@ -175,7 +175,7 @@ const Home: NextPage = () => (
         content1="Book Repository a personal book tracking app, utilizing technologies such as NextJS, TailwindCSS, NodeJS, SQL with Sequelize, and TypeScript. The main functionality of the website is to allow users to access a vast collection of books using the Google Books API and perform various operations, such as updating the status of the books (read, to read, currently reading), adding ratings, and notes. The website also includes a registration and login system with private routes, ensuring user privacy. "
         content2="Additionally, the website has unit tests with Jest and Supertest to ensure the stability and reliability of the website. A day and night mode switcher is also included and they can also edit their profile on the app. In summary, the Book Repository aims to provide a comprehensive and user-friendly platform for book lovers to manage their reading list and keep track of their progress."
         apps="#react #chakraui #node #sequelize"
-        github="https://github.com/facundoveliz/somos-mas-ong"
+        github="https://github.com/facundoveliz/book-repository"
         demo=""
       />
     </ProjectsWrapper>
