@@ -1,16 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const Theme = {
-  background: '#171923',
-  backgroundSoft: '#1f222d',
-  foreground: '#ecf9fb',
-  foregroundSoft: '#b2bfc1',
-  foregroundSofter: '#838383',
-  primary: '#1bd96a',
-  secondary: '#74b6f3',
-  danger: '#e24f44',
-  border: '#404040',
-  divider: '#fff',
+  background: '#f7f4ed',
+  backgroundSoft: '#cbc8c1',
+  foreground: '#26312e',
+  foregroundSoft: '#36413e',
+  foregroundSofter: '#46514e',
 };
 
 export type ThemeType = {
