@@ -58,13 +58,6 @@ const Home: NextPage = () => (
           and am eager to work with a team of experienced developers to continue
           growing my skills and knowledge.
         </p>
-        <p>
-          Overall, I am a highly motivated and skilled web developer with a
-          passion for building web applications and dedicated to producing
-          high-quality code. I am excited to work with a team of experienced
-          developers and to continue growing my skills and knowledge in the
-          industry.
-        </p>
       </Description>
       <div>
         <Email
