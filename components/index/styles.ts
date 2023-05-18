@@ -5,7 +5,7 @@ import { MdOutlineMail } from 'react-icons/md';
 export const Wrapper = styled.div``;
 
 export const Introduction = styled.div`
-  margin-top: 72px;
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +44,6 @@ export const Skills = styled.div`
   }
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  /* background: red; */
   width: 100%;
   div {
     padding: 4px;
@@ -67,13 +66,13 @@ export const SkillsWrapper = styled.div`
     }
   }
   h2 {
-    margin-top: 128px;
+    margin-top: 72px;
   }
 `;
 
 export const ProjectsWrapper = styled.div`
   h2 {
-    margin: 48px 0 48px;
+    margin: 72px 0 48px;
   }
 `;
 
