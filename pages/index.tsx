@@ -151,7 +151,7 @@ const Home: NextPage = () => (
         content2="One of the key features of this app is the admin panel, which allows for easy management of users, products, and orders. This includes the ability to perform CRUD operations on these entities, providing full control over the content of the website. Additionally, the app features a cart system, allowing users to add products to their cart and proceed to checkout. Users are able to create an account, sign in, and update their profile."
         apps="#react #sass #node #mongodb #aws"
         github="https://github.com/facundoveliz/vendo-ecommerce"
-        demo="https://vendo.facundoveliz.monster/"
+        demo="https://vendo.facundoveliz.xyz/"
       />
 
       <Card
@@ -160,7 +160,7 @@ const Home: NextPage = () => (
         content2="It also provides with a register and login system, which includes private routes to ensure the security of user data. Also I implemented a set of unit tests that I plan to expand using Jest and Supertest. The website includes a Day and Night mode switcher. Additionally, users can edit their profiles, allowing them to update their personal information and preferences."
         apps="#nextjs #typescript #styled-components #node #mongodb"
         github="https://github.com/facundoveliz/personal-budget"
-        demo="https://budgie.facundoveliz.monster/"
+        demo="https://budgie.facundoveliz.xyz/"
       />
 
       <Card
